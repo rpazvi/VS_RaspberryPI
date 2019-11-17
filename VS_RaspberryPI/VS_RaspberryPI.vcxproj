@@ -65,9 +65,13 @@
     </RemotePostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="demo.c" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="ssd1306_i2c.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="oled_fonts.h" />
+    <ClInclude Include="ssd1306_i2c.h" />
   </ItemGroup>
   <ItemDefinitionGroup />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
